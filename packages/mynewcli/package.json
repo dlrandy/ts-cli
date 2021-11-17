@@ -35,7 +35,8 @@
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
-    "bin": "mynewcli"
+    "bin": "mynewcli",
+    "commands": "./lib/commands"
   },
   "repository": "dlrandy/mynewcli",
   "scripts": {
