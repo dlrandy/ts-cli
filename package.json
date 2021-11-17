@@ -1,0 +1,10 @@
+{
+  "name": "ts-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": "https://github.com/dlrandy/ts-cli.git",
+  "author": "dlrandy <1208484996@qq.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.1.0"
+}
