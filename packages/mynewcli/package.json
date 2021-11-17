@@ -10,15 +10,21 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
+    "chai": "^4.3.4",
     "debug": "^4.3.2",
+    "jest": "^27.3.1",
+    "jest-diff": "^27.3.1",
     "tslib": "^1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
+    "@oclif/test": "^1.2.8",
+    "@types/jest": "^27.0.2",
     "@types/node": "^10",
     "eslint": "^5.13",
     "eslint-config-oclif": "^3.1",
     "eslint-config-oclif-typescript": "^0.1",
+    "ts-jest": "^27.0.7",
     "ts-node": "^8",
     "typescript": "^3.3"
   },
