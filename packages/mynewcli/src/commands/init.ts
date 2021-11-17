@@ -1,5 +1,5 @@
 import {Command, flags} from '@oclif/command'
-
+var debug = require('debug')('mynewcli:init');
 class Mynewcli extends Command {
   static description = 'describe the command here'
 
@@ -18,7 +18,7 @@ class Mynewcli extends Command {
   async run() {
     const {args, flags} = this.parse(Mynewcli)
 
- console.log("args ", args);
+ debug(`debug parsing "args ", ${args}`);
 
     const name = flags.name ?? 'world'
     this.log(`hello ${name} from ./src/index.ts`)
