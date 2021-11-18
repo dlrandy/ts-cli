@@ -11,7 +11,9 @@
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
     "chai": "^4.3.4",
+    "cli-ux": "^5.6.3",
     "debug": "^4.3.2",
+    "enquirer": "^2.3.6",
     "jest": "^27.3.1",
     "jest-diff": "^27.3.1",
     "tslib": "^1"
